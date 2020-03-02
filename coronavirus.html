@@ -1,0 +1,2063 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8a5b332109fd4c06ad567afff779a6df {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8a5b332109fd4c06ad567afff779a6df" ></div>
+        
+</body>
+<script>    
+    
+            var map_8a5b332109fd4c06ad567afff779a6df = L.map(
+                "map_8a5b332109fd4c06ad567afff779a6df",
+                {
+                    center: [41.60335, 14.67607],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a20f19d60b874b489c1ff054e2529ceb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8a5b332109fd4c06ad567afff779a6df);
+        
+    
+            var feature_group_dffa4431b9c2450883e977b1cf83f756 = L.featureGroup(
+                {}
+            ).addTo(map_8a5b332109fd4c06ad567afff779a6df);
+        
+    
+            var circle_marker_6657360356684d0398fb48b2a9fcc721 = L.circleMarker(
+                [31.8257, 117.2264],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_1604646979684715be0cf9ac93da7691 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28fcd2b34182448fb5d88bf9a2050bbd = $(`<div id="html_28fcd2b34182448fb5d88bf9a2050bbd" style="width: 100.0%; height: 100.0%;">792 have coronavirus</div>`)[0];
+            popup_1604646979684715be0cf9ac93da7691.setContent(html_28fcd2b34182448fb5d88bf9a2050bbd);
+        
+
+        circle_marker_6657360356684d0398fb48b2a9fcc721.bindPopup(popup_1604646979684715be0cf9ac93da7691)
+        ;
+
+        
+    
+    
+            var circle_marker_245407673f964031859cd98599acc623 = L.circleMarker(
+                [40.1824, 116.4142],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_6f5156cbb5784eb9876db50aa5f6799f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95555e9635864f5184c86ee084764749 = $(`<div id="html_95555e9635864f5184c86ee084764749" style="width: 100.0%; height: 100.0%;">248 have coronavirus</div>`)[0];
+            popup_6f5156cbb5784eb9876db50aa5f6799f.setContent(html_95555e9635864f5184c86ee084764749);
+        
+
+        circle_marker_245407673f964031859cd98599acc623.bindPopup(popup_6f5156cbb5784eb9876db50aa5f6799f)
+        ;
+
+        
+    
+    
+            var circle_marker_2fb94f639f84450a8c1a7660570608cf = L.circleMarker(
+                [30.0572, 107.874],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_e96c35284ee140539919767e711de63b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c671334e3b1e4f97b7f7985a06acf480 = $(`<div id="html_c671334e3b1e4f97b7f7985a06acf480" style="width: 100.0%; height: 100.0%;">401 have coronavirus</div>`)[0];
+            popup_e96c35284ee140539919767e711de63b.setContent(html_c671334e3b1e4f97b7f7985a06acf480);
+        
+
+        circle_marker_2fb94f639f84450a8c1a7660570608cf.bindPopup(popup_e96c35284ee140539919767e711de63b)
+        ;
+
+        
+    
+    
+            var circle_marker_d7fad6688fd54cc0b0b71fb82e4749df = L.circleMarker(
+                [26.0789, 117.9874],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_848ecd0e2690470eb8e4fae37c7600b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9391b880c8544d29c85b39430f06bdb = $(`<div id="html_e9391b880c8544d29c85b39430f06bdb" style="width: 100.0%; height: 100.0%;">228 have coronavirus</div>`)[0];
+            popup_848ecd0e2690470eb8e4fae37c7600b7.setContent(html_e9391b880c8544d29c85b39430f06bdb);
+        
+
+        circle_marker_d7fad6688fd54cc0b0b71fb82e4749df.bindPopup(popup_848ecd0e2690470eb8e4fae37c7600b7)
+        ;
+
+        
+    
+    
+            var circle_marker_51f465eb634f467ba4215c619a29e6bc = L.circleMarker(
+                [36.0611, 103.8343],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_9b1830ee85b24123855b19d57f4d709b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_189af13eb58847fc9de9dbc81062e63c = $(`<div id="html_189af13eb58847fc9de9dbc81062e63c" style="width: 100.0%; height: 100.0%;">81 have coronavirus</div>`)[0];
+            popup_9b1830ee85b24123855b19d57f4d709b.setContent(html_189af13eb58847fc9de9dbc81062e63c);
+        
+
+        circle_marker_51f465eb634f467ba4215c619a29e6bc.bindPopup(popup_9b1830ee85b24123855b19d57f4d709b)
+        ;
+
+        
+    
+    
+            var circle_marker_f726737d872b40e0a7137cd4dd5452e5 = L.circleMarker(
+                [23.3417, 113.4244],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_14341824bfb9455b8ccd773e54fa8ee8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a316d49133564b3c954460ea39f6afb1 = $(`<div id="html_a316d49133564b3c954460ea39f6afb1" style="width: 100.0%; height: 100.0%;">890 have coronavirus</div>`)[0];
+            popup_14341824bfb9455b8ccd773e54fa8ee8.setContent(html_a316d49133564b3c954460ea39f6afb1);
+        
+
+        circle_marker_f726737d872b40e0a7137cd4dd5452e5.bindPopup(popup_14341824bfb9455b8ccd773e54fa8ee8)
+        ;
+
+        
+    
+    
+            var circle_marker_eb48bf1f7de14d3d9ea9b36aad7c6a33 = L.circleMarker(
+                [23.8298, 108.7881],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_104c51f685a844119fe4426baff827b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eec99a2a293648b6af9fb7b79bf9997c = $(`<div id="html_eec99a2a293648b6af9fb7b79bf9997c" style="width: 100.0%; height: 100.0%;">161 have coronavirus</div>`)[0];
+            popup_104c51f685a844119fe4426baff827b9.setContent(html_eec99a2a293648b6af9fb7b79bf9997c);
+        
+
+        circle_marker_eb48bf1f7de14d3d9ea9b36aad7c6a33.bindPopup(popup_104c51f685a844119fe4426baff827b9)
+        ;
+
+        
+    
+    
+            var circle_marker_ec99af3c82644f2abceb068552e7c6f1 = L.circleMarker(
+                [26.8154, 106.8748],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_c7a84108738d492d8593153e722cb200 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9b50fda617b4001805acf996e194d14 = $(`<div id="html_b9b50fda617b4001805acf996e194d14" style="width: 100.0%; height: 100.0%;">112 have coronavirus</div>`)[0];
+            popup_c7a84108738d492d8593153e722cb200.setContent(html_b9b50fda617b4001805acf996e194d14);
+        
+
+        circle_marker_ec99af3c82644f2abceb068552e7c6f1.bindPopup(popup_c7a84108738d492d8593153e722cb200)
+        ;
+
+        
+    
+    
+            var circle_marker_9cdb12bda8794fb4a2ef2c1b3ce3f6c4 = L.circleMarker(
+                [19.1959, 109.7453],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_67d222168c0947e18d0e7426affd380f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9d418d02a634a5890d0d1dfa4ab6dac = $(`<div id="html_f9d418d02a634a5890d0d1dfa4ab6dac" style="width: 100.0%; height: 100.0%;">131 have coronavirus</div>`)[0];
+            popup_67d222168c0947e18d0e7426affd380f.setContent(html_f9d418d02a634a5890d0d1dfa4ab6dac);
+        
+
+        circle_marker_9cdb12bda8794fb4a2ef2c1b3ce3f6c4.bindPopup(popup_67d222168c0947e18d0e7426affd380f)
+        ;
+
+        
+    
+    
+            var circle_marker_ed9b9731ea2841a5b9d273b8892d485c = L.circleMarker(
+                [38.0428, 114.5149],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_e230f7f4f2cf4c7aaa8d74b3a8cc4c23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49d142965797493981057218a6fb9056 = $(`<div id="html_49d142965797493981057218a6fb9056" style="width: 100.0%; height: 100.0%;">274 have coronavirus</div>`)[0];
+            popup_e230f7f4f2cf4c7aaa8d74b3a8cc4c23.setContent(html_49d142965797493981057218a6fb9056);
+        
+
+        circle_marker_ed9b9731ea2841a5b9d273b8892d485c.bindPopup(popup_e230f7f4f2cf4c7aaa8d74b3a8cc4c23)
+        ;
+
+        
+    
+    
+            var circle_marker_2348696b84794a0b89cb6c93955312ec = L.circleMarker(
+                [47.861999999999995, 127.7615],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_ac497934e8164d7480592d8555a3739b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60f1e058abfb4de991aa43b80879ff1a = $(`<div id="html_60f1e058abfb4de991aa43b80879ff1a" style="width: 100.0%; height: 100.0%;">270 have coronavirus</div>`)[0];
+            popup_ac497934e8164d7480592d8555a3739b.setContent(html_60f1e058abfb4de991aa43b80879ff1a);
+        
+
+        circle_marker_2348696b84794a0b89cb6c93955312ec.bindPopup(popup_ac497934e8164d7480592d8555a3739b)
+        ;
+
+        
+    
+    
+            var circle_marker_00a0a134b39348b3a37155c4ddf2c4fc = L.circleMarker(
+                [33.882020000000004, 113.61399999999999],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_bf4b9e29a9114597a5f6485fc01fc225 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b10192b2603841ec8d70c59b2e3aa601 = $(`<div id="html_b10192b2603841ec8d70c59b2e3aa601" style="width: 100.0%; height: 100.0%;">1068 have coronavirus</div>`)[0];
+            popup_bf4b9e29a9114597a5f6485fc01fc225.setContent(html_b10192b2603841ec8d70c59b2e3aa601);
+        
+
+        circle_marker_00a0a134b39348b3a37155c4ddf2c4fc.bindPopup(popup_bf4b9e29a9114597a5f6485fc01fc225)
+        ;
+
+        
+    
+    
+            var circle_marker_023f067d812848558b3cb55c2b2cf889 = L.circleMarker(
+                [30.9756, 112.2707],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_0a24c7959ef14aca963a369f3e24ec2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42a797e75f8d4152b348b62dad6f2e4c = $(`<div id="html_42a797e75f8d4152b348b62dad6f2e4c" style="width: 100.0%; height: 100.0%;">23383 have coronavirus</div>`)[0];
+            popup_0a24c7959ef14aca963a369f3e24ec2a.setContent(html_42a797e75f8d4152b348b62dad6f2e4c);
+        
+
+        circle_marker_023f067d812848558b3cb55c2b2cf889.bindPopup(popup_0a24c7959ef14aca963a369f3e24ec2a)
+        ;
+
+        
+    
+    
+            var circle_marker_ef76a5b34bd3473ebf33bcee240cd889 = L.circleMarker(
+                [27.6104, 111.7088],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_de81cec1c75f4c68a8ba8ed58230fbe7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a550f08e9c794f288e1134ef08a6d261 = $(`<div id="html_a550f08e9c794f288e1134ef08a6d261" style="width: 100.0%; height: 100.0%;">804 have coronavirus</div>`)[0];
+            popup_de81cec1c75f4c68a8ba8ed58230fbe7.setContent(html_a550f08e9c794f288e1134ef08a6d261);
+        
+
+        circle_marker_ef76a5b34bd3473ebf33bcee240cd889.bindPopup(popup_de81cec1c75f4c68a8ba8ed58230fbe7)
+        ;
+
+        
+    
+    
+            var circle_marker_c7a8d88be8894809befa6082efbae1d9 = L.circleMarker(
+                [44.0935, 113.9448],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_5cef28a4a3c24fda96fa11daded7c0dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc51d89eaeb240ebb5494a8ea07a97c1 = $(`<div id="html_bc51d89eaeb240ebb5494a8ea07a97c1" style="width: 100.0%; height: 100.0%;">43 have coronavirus</div>`)[0];
+            popup_5cef28a4a3c24fda96fa11daded7c0dd.setContent(html_bc51d89eaeb240ebb5494a8ea07a97c1);
+        
+
+        circle_marker_c7a8d88be8894809befa6082efbae1d9.bindPopup(popup_5cef28a4a3c24fda96fa11daded7c0dd)
+        ;
+
+        
+    
+    
+            var circle_marker_8852d169fdc3426ab28c2c52eade268f = L.circleMarker(
+                [32.9711, 119.455],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_6fc7f4eea7b1486ea99641fa5275168f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a736368c0b3a4693b3d3660723434f87 = $(`<div id="html_a736368c0b3a4693b3d3660723434f87" style="width: 100.0%; height: 100.0%;">498 have coronavirus</div>`)[0];
+            popup_6fc7f4eea7b1486ea99641fa5275168f.setContent(html_a736368c0b3a4693b3d3660723434f87);
+        
+
+        circle_marker_8852d169fdc3426ab28c2c52eade268f.bindPopup(popup_6fc7f4eea7b1486ea99641fa5275168f)
+        ;
+
+        
+    
+    
+            var circle_marker_f85d26aa00a148dbae0ab05a3e7c899f = L.circleMarker(
+                [27.614, 115.7221],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_fb6bb341b13a44e29cf02fbaa341d404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65cd0998a15e427ab14124b914b9364e = $(`<div id="html_65cd0998a15e427ab14124b914b9364e" style="width: 100.0%; height: 100.0%;">754 have coronavirus</div>`)[0];
+            popup_fb6bb341b13a44e29cf02fbaa341d404.setContent(html_65cd0998a15e427ab14124b914b9364e);
+        
+
+        circle_marker_f85d26aa00a148dbae0ab05a3e7c899f.bindPopup(popup_fb6bb341b13a44e29cf02fbaa341d404)
+        ;
+
+        
+    
+    
+            var circle_marker_568ada9c80e54291bc89f8cd7b634111 = L.circleMarker(
+                [43.6661, 126.1923],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_15743e2c2b5b4cb1b1c8677e22904bcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4572cec77b1c4eeeb22ca4c38e8aa728 = $(`<div id="html_4572cec77b1c4eeeb22ca4c38e8aa728" style="width: 100.0%; height: 100.0%;">67 have coronavirus</div>`)[0];
+            popup_15743e2c2b5b4cb1b1c8677e22904bcf.setContent(html_4572cec77b1c4eeeb22ca4c38e8aa728);
+        
+
+        circle_marker_568ada9c80e54291bc89f8cd7b634111.bindPopup(popup_15743e2c2b5b4cb1b1c8677e22904bcf)
+        ;
+
+        
+    
+    
+            var circle_marker_a4a77ff3b7bd4d1c92609358bc08fb99 = L.circleMarker(
+                [41.2956, 122.6085],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_fc944b976688402a870cda56acb3e1c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d820403340334f3ba1d303e655a7d278 = $(`<div id="html_d820403340334f3ba1d303e655a7d278" style="width: 100.0%; height: 100.0%;">93 have coronavirus</div>`)[0];
+            popup_fc944b976688402a870cda56acb3e1c7.setContent(html_d820403340334f3ba1d303e655a7d278);
+        
+
+        circle_marker_a4a77ff3b7bd4d1c92609358bc08fb99.bindPopup(popup_fc944b976688402a870cda56acb3e1c7)
+        ;
+
+        
+    
+    
+            var circle_marker_03ec3e5ba9e24809a0a8467fef8f8629 = L.circleMarker(
+                [37.2692, 106.1655],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_f2ffdf4a97a14737b685ce160d9f8054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d58203881374e6f821956810e3003ac = $(`<div id="html_8d58203881374e6f821956810e3003ac" style="width: 100.0%; height: 100.0%;">68 have coronavirus</div>`)[0];
+            popup_f2ffdf4a97a14737b685ce160d9f8054.setContent(html_8d58203881374e6f821956810e3003ac);
+        
+
+        circle_marker_03ec3e5ba9e24809a0a8467fef8f8629.bindPopup(popup_f2ffdf4a97a14737b685ce160d9f8054)
+        ;
+
+        
+    
+    
+            var circle_marker_c35becffd6844f67bbf9eea4e6c51637 = L.circleMarker(
+                [35.7452, 95.9956],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_5156d957012d41a4991033c1b5db2692 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4ee179036eb475e9778cb0d1ba5df38 = $(`<div id="html_a4ee179036eb475e9778cb0d1ba5df38" style="width: 100.0%; height: 100.0%;">18 have coronavirus</div>`)[0];
+            popup_5156d957012d41a4991033c1b5db2692.setContent(html_a4ee179036eb475e9778cb0d1ba5df38);
+        
+
+        circle_marker_c35becffd6844f67bbf9eea4e6c51637.bindPopup(popup_5156d957012d41a4991033c1b5db2692)
+        ;
+
+        
+    
+    
+            var circle_marker_310f015b1ebf429cac1b4766794f2344 = L.circleMarker(
+                [35.1917, 108.8701],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_90b3326923a14c4ca2e15343cbb894a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c1ef830c37a478c81afe7200fb06f54 = $(`<div id="html_8c1ef830c37a478c81afe7200fb06f54" style="width: 100.0%; height: 100.0%;">195 have coronavirus</div>`)[0];
+            popup_90b3326923a14c4ca2e15343cbb894a7.setContent(html_8c1ef830c37a478c81afe7200fb06f54);
+        
+
+        circle_marker_310f015b1ebf429cac1b4766794f2344.bindPopup(popup_90b3326923a14c4ca2e15343cbb894a7)
+        ;
+
+        
+    
+    
+            var circle_marker_3c32e7b7a45940aca347ceea6e06a1a3 = L.circleMarker(
+                [36.3427, 118.1498],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_b063689cd8354fa3a790eda2d619c7fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce28e71e8cb447ea6d7a13efa863c94 = $(`<div id="html_cce28e71e8cb447ea6d7a13efa863c94" style="width: 100.0%; height: 100.0%;">387 have coronavirus</div>`)[0];
+            popup_b063689cd8354fa3a790eda2d619c7fa.setContent(html_cce28e71e8cb447ea6d7a13efa863c94);
+        
+
+        circle_marker_3c32e7b7a45940aca347ceea6e06a1a3.bindPopup(popup_b063689cd8354fa3a790eda2d619c7fa)
+        ;
+
+        
+    
+    
+            var circle_marker_2d8c2fdd00b248bcb825e2848051fd7a = L.circleMarker(
+                [31.201999999999998, 121.4491],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_d85db312648f4455a13244ecd4d36760 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf65e8adcb5e421ab577c805b6cb0007 = $(`<div id="html_cf65e8adcb5e421ab577c805b6cb0007" style="width: 100.0%; height: 100.0%;">276 have coronavirus</div>`)[0];
+            popup_d85db312648f4455a13244ecd4d36760.setContent(html_cf65e8adcb5e421ab577c805b6cb0007);
+        
+
+        circle_marker_2d8c2fdd00b248bcb825e2848051fd7a.bindPopup(popup_d85db312648f4455a13244ecd4d36760)
+        ;
+
+        
+    
+    
+            var circle_marker_7a0e81e50da84360b97ebb7951c490e4 = L.circleMarker(
+                [37.5777, 112.2922],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_d0d7bbc21ea840be91dfe490db47c69e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_441336c9dbef4f259108531931a0e8c0 = $(`<div id="html_441336c9dbef4f259108531931a0e8c0" style="width: 100.0%; height: 100.0%;">107 have coronavirus</div>`)[0];
+            popup_d0d7bbc21ea840be91dfe490db47c69e.setContent(html_441336c9dbef4f259108531931a0e8c0);
+        
+
+        circle_marker_7a0e81e50da84360b97ebb7951c490e4.bindPopup(popup_d0d7bbc21ea840be91dfe490db47c69e)
+        ;
+
+        
+    
+    
+            var circle_marker_62d60329fae44321a96ddc917045f1ef = L.circleMarker(
+                [30.6171, 102.7103],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_898a33059b0c4e428365ede44410add3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_422d554b0c8b4d9e95a066bbd3dc2da9 = $(`<div id="html_422d554b0c8b4d9e95a066bbd3dc2da9" style="width: 100.0%; height: 100.0%;">321 have coronavirus</div>`)[0];
+            popup_898a33059b0c4e428365ede44410add3.setContent(html_422d554b0c8b4d9e95a066bbd3dc2da9);
+        
+
+        circle_marker_62d60329fae44321a96ddc917045f1ef.bindPopup(popup_898a33059b0c4e428365ede44410add3)
+        ;
+
+        
+    
+    
+            var circle_marker_9757fcfed47648f382fb918ad2b935b8 = L.circleMarker(
+                [39.3054, 117.323],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_5500c028d94144a38e85e0f3132d7955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05139dd556d34b03bf36b9105f604056 = $(`<div id="html_05139dd556d34b03bf36b9105f604056" style="width: 100.0%; height: 100.0%;">102 have coronavirus</div>`)[0];
+            popup_5500c028d94144a38e85e0f3132d7955.setContent(html_05139dd556d34b03bf36b9105f604056);
+        
+
+        circle_marker_9757fcfed47648f382fb918ad2b935b8.bindPopup(popup_5500c028d94144a38e85e0f3132d7955)
+        ;
+
+        
+    
+    
+            var circle_marker_c18181ea4124486c8f06fb2aac576e38 = L.circleMarker(
+                [31.6927, 88.0924],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_f7337ef635454c4a8c2272e9831c5dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cb55ad20e39427ea3556c053e195be7 = $(`<div id="html_9cb55ad20e39427ea3556c053e195be7" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_f7337ef635454c4a8c2272e9831c5dd9.setContent(html_9cb55ad20e39427ea3556c053e195be7);
+        
+
+        circle_marker_c18181ea4124486c8f06fb2aac576e38.bindPopup(popup_f7337ef635454c4a8c2272e9831c5dd9)
+        ;
+
+        
+    
+    
+            var circle_marker_8dd4b9a75525418483752325ec7c5a1d = L.circleMarker(
+                [41.1129, 85.2401],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_02a6dab8f8af4889b7eb74be478ae954 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_831a4cd869c6407d93804397b925d991 = $(`<div id="html_831a4cd869c6407d93804397b925d991" style="width: 100.0%; height: 100.0%;">43 have coronavirus</div>`)[0];
+            popup_02a6dab8f8af4889b7eb74be478ae954.setContent(html_831a4cd869c6407d93804397b925d991);
+        
+
+        circle_marker_8dd4b9a75525418483752325ec7c5a1d.bindPopup(popup_02a6dab8f8af4889b7eb74be478ae954)
+        ;
+
+        
+    
+    
+            var circle_marker_2a61ca9212e747d2ba3517529d69bd70 = L.circleMarker(
+                [24.974, 101.48700000000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_8ebf11ad4dd2498083b3d28a56f09b15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f18829a33163473bb2429e5c4b1018b9 = $(`<div id="html_f18829a33163473bb2429e5c4b1018b9" style="width: 100.0%; height: 100.0%;">150 have coronavirus</div>`)[0];
+            popup_8ebf11ad4dd2498083b3d28a56f09b15.setContent(html_f18829a33163473bb2429e5c4b1018b9);
+        
+
+        circle_marker_2a61ca9212e747d2ba3517529d69bd70.bindPopup(popup_8ebf11ad4dd2498083b3d28a56f09b15)
+        ;
+
+        
+    
+    
+            var circle_marker_feb5b20bc4ae4196825ff3d871aea7b2 = L.circleMarker(
+                [29.1832, 120.0934],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "brown", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_0124d87a155a47498fcf39e04310276e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba61235fe43f4048b62397ccb439a525 = $(`<div id="html_ba61235fe43f4048b62397ccb439a525" style="width: 100.0%; height: 100.0%;">932 have coronavirus</div>`)[0];
+            popup_0124d87a155a47498fcf39e04310276e.setContent(html_ba61235fe43f4048b62397ccb439a525);
+        
+
+        circle_marker_feb5b20bc4ae4196825ff3d871aea7b2.bindPopup(popup_0124d87a155a47498fcf39e04310276e)
+        ;
+
+        
+    
+    
+            var circle_marker_58f1b6c8f1434dfab6af7c5e36f60470 = L.circleMarker(
+                [15.0, 101.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_005a5c4d589d43d1b4a1c6758ccb2db6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46dbc36758344003b8d8f4c09b78fe27 = $(`<div id="html_46dbc36758344003b8d8f4c09b78fe27" style="width: 100.0%; height: 100.0%;">22 have coronavirus</div>`)[0];
+            popup_005a5c4d589d43d1b4a1c6758ccb2db6.setContent(html_46dbc36758344003b8d8f4c09b78fe27);
+        
+
+        circle_marker_58f1b6c8f1434dfab6af7c5e36f60470.bindPopup(popup_005a5c4d589d43d1b4a1c6758ccb2db6)
+        ;
+
+        
+    
+    
+            var circle_marker_acd2690ab85447e1aee784d0866a4e36 = L.circleMarker(
+                [36.0, 138.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_ea56fd051b9d4b89a45739af2ca56306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb482e5511b24db1b06cac3834d0ceca = $(`<div id="html_bb482e5511b24db1b06cac3834d0ceca" style="width: 100.0%; height: 100.0%;">22 have coronavirus</div>`)[0];
+            popup_ea56fd051b9d4b89a45739af2ca56306.setContent(html_bb482e5511b24db1b06cac3834d0ceca);
+        
+
+        circle_marker_acd2690ab85447e1aee784d0866a4e36.bindPopup(popup_ea56fd051b9d4b89a45739af2ca56306)
+        ;
+
+        
+    
+    
+            var circle_marker_2ace9547db554b7291a78f6eb9524c1b = L.circleMarker(
+                [36.0, 128.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_3f1159a1c6f24987898839885777dfc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fdbbe9c94b7436686a707e3d5a6b9d5 = $(`<div id="html_8fdbbe9c94b7436686a707e3d5a6b9d5" style="width: 100.0%; height: 100.0%;">22 have coronavirus</div>`)[0];
+            popup_3f1159a1c6f24987898839885777dfc6.setContent(html_8fdbbe9c94b7436686a707e3d5a6b9d5);
+        
+
+        circle_marker_2ace9547db554b7291a78f6eb9524c1b.bindPopup(popup_3f1159a1c6f24987898839885777dfc6)
+        ;
+
+        
+    
+    
+            var circle_marker_de4862f1cf864b31be06d241d93d67b0 = L.circleMarker(
+                [23.7, 121.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_bc34e06990e440b88e1a7bb5037b1d1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ff4d5a0987f4ed49b5ac4c911115eb7 = $(`<div id="html_1ff4d5a0987f4ed49b5ac4c911115eb7" style="width: 100.0%; height: 100.0%;">5 have coronavirus</div>`)[0];
+            popup_bc34e06990e440b88e1a7bb5037b1d1c.setContent(html_1ff4d5a0987f4ed49b5ac4c911115eb7);
+        
+
+        circle_marker_de4862f1cf864b31be06d241d93d67b0.bindPopup(popup_bc34e06990e440b88e1a7bb5037b1d1c)
+        ;
+
+        
+    
+    
+            var circle_marker_4fe27daf07c2407d840920d0b516b27e = L.circleMarker(
+                [47.6062, -122.3321],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_fc86abcf22a24899a1a8533ee9591d4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9a2c6700f184740881be7733a72bf66 = $(`<div id="html_b9a2c6700f184740881be7733a72bf66" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_fc86abcf22a24899a1a8533ee9591d4a.setContent(html_b9a2c6700f184740881be7733a72bf66);
+        
+
+        circle_marker_4fe27daf07c2407d840920d0b516b27e.bindPopup(popup_fc86abcf22a24899a1a8533ee9591d4a)
+        ;
+
+        
+    
+    
+            var circle_marker_bf1ea8c42a404111817effe45fb63ad1 = L.circleMarker(
+                [41.8781, -87.6298],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_62574dbb05e149ebb07f355915ce0ed9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2330cad9da934e738e9ed181043040d8 = $(`<div id="html_2330cad9da934e738e9ed181043040d8" style="width: 100.0%; height: 100.0%;">2 have coronavirus</div>`)[0];
+            popup_62574dbb05e149ebb07f355915ce0ed9.setContent(html_2330cad9da934e738e9ed181043040d8);
+        
+
+        circle_marker_bf1ea8c42a404111817effe45fb63ad1.bindPopup(popup_62574dbb05e149ebb07f355915ce0ed9)
+        ;
+
+        
+    
+    
+            var circle_marker_304788f004044164b91f846b7ca3eba1 = L.circleMarker(
+                [33.4255, -111.94],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_a4ce4f5caf8f4c5d90e26bae36a1c97e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d2d15509966479baf8bfded872edbf2 = $(`<div id="html_2d2d15509966479baf8bfded872edbf2" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_a4ce4f5caf8f4c5d90e26bae36a1c97e.setContent(html_2d2d15509966479baf8bfded872edbf2);
+        
+
+        circle_marker_304788f004044164b91f846b7ca3eba1.bindPopup(popup_a4ce4f5caf8f4c5d90e26bae36a1c97e)
+        ;
+
+        
+    
+    
+            var circle_marker_10592b106e374747a9a59ee7079d82ba = L.circleMarker(
+                [22.1667, 113.55],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_a2cfd73a1f144a749a9fb32ec07b6bd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_403c9be8e28444f8a1fd7877c356d3c7 = $(`<div id="html_403c9be8e28444f8a1fd7877c356d3c7" style="width: 100.0%; height: 100.0%;">8 have coronavirus</div>`)[0];
+            popup_a2cfd73a1f144a749a9fb32ec07b6bd3.setContent(html_403c9be8e28444f8a1fd7877c356d3c7);
+        
+
+        circle_marker_10592b106e374747a9a59ee7079d82ba.bindPopup(popup_a2cfd73a1f144a749a9fb32ec07b6bd3)
+        ;
+
+        
+    
+    
+            var circle_marker_6d054ac425e84454add71bc8c30328f2 = L.circleMarker(
+                [22.3, 114.2],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_c692d88e1daf471ca34b8582bc6a9efc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83aadca4e5c74799876f293c390b5256 = $(`<div id="html_83aadca4e5c74799876f293c390b5256" style="width: 100.0%; height: 100.0%;">24 have coronavirus</div>`)[0];
+            popup_c692d88e1daf471ca34b8582bc6a9efc.setContent(html_83aadca4e5c74799876f293c390b5256);
+        
+
+        circle_marker_6d054ac425e84454add71bc8c30328f2.bindPopup(popup_c692d88e1daf471ca34b8582bc6a9efc)
+        ;
+
+        
+    
+    
+            var circle_marker_49f1ea5d03754c98985a75e0f09e67e1 = L.circleMarker(
+                [1.2833, 103.8333],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_8051c887799645b699342ccbb79125ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d35ac1c4d0e64632a9ce586acb5adc9d = $(`<div id="html_d35ac1c4d0e64632a9ce586acb5adc9d" style="width: 100.0%; height: 100.0%;">62 have coronavirus</div>`)[0];
+            popup_8051c887799645b699342ccbb79125ae.setContent(html_d35ac1c4d0e64632a9ce586acb5adc9d);
+        
+
+        circle_marker_49f1ea5d03754c98985a75e0f09e67e1.bindPopup(popup_8051c887799645b699342ccbb79125ae)
+        ;
+
+        
+    
+    
+            var circle_marker_1a85a277875e4196aac6c17477643d1a = L.circleMarker(
+                [16.0, 108.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_dee947e7b53a4df9b1b277beaeeaf0de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_174a7a7d68fc49e884741c6ef6ffd874 = $(`<div id="html_174a7a7d68fc49e884741c6ef6ffd874" style="width: 100.0%; height: 100.0%;">16 have coronavirus</div>`)[0];
+            popup_dee947e7b53a4df9b1b277beaeeaf0de.setContent(html_174a7a7d68fc49e884741c6ef6ffd874);
+        
+
+        circle_marker_1a85a277875e4196aac6c17477643d1a.bindPopup(popup_dee947e7b53a4df9b1b277beaeeaf0de)
+        ;
+
+        
+    
+    
+            var circle_marker_c1d3d4d168b14ef88615cc9a648155be = L.circleMarker(
+                [47.0, 2.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_17acbb29648544f8b9c586cf08a979b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b63520a92f54c1fac263a8b274a2b0e = $(`<div id="html_4b63520a92f54c1fac263a8b274a2b0e" style="width: 100.0%; height: 100.0%;">11 have coronavirus</div>`)[0];
+            popup_17acbb29648544f8b9c586cf08a979b7.setContent(html_4b63520a92f54c1fac263a8b274a2b0e);
+        
+
+        circle_marker_c1d3d4d168b14ef88615cc9a648155be.bindPopup(popup_17acbb29648544f8b9c586cf08a979b7)
+        ;
+
+        
+    
+    
+            var circle_marker_abdc3500f5a348a0b086447ec7d76815 = L.circleMarker(
+                [28.1667, 84.25],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_417514c3e01a4c5b9909510cd3575503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9d071f9b1264861b429292029b108c1 = $(`<div id="html_c9d071f9b1264861b429292029b108c1" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_417514c3e01a4c5b9909510cd3575503.setContent(html_c9d071f9b1264861b429292029b108c1);
+        
+
+        circle_marker_abdc3500f5a348a0b086447ec7d76815.bindPopup(popup_417514c3e01a4c5b9909510cd3575503)
+        ;
+
+        
+    
+    
+            var circle_marker_bf44468aac7c4263a183ce468ae4d14a = L.circleMarker(
+                [2.5, 112.5],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_b25247d6e33c45d58f2b0d7fb0ba4080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee543a11e6974dc9af576a18e19942fa = $(`<div id="html_ee543a11e6974dc9af576a18e19942fa" style="width: 100.0%; height: 100.0%;">18 have coronavirus</div>`)[0];
+            popup_b25247d6e33c45d58f2b0d7fb0ba4080.setContent(html_ee543a11e6974dc9af576a18e19942fa);
+        
+
+        circle_marker_bf44468aac7c4263a183ce468ae4d14a.bindPopup(popup_b25247d6e33c45d58f2b0d7fb0ba4080)
+        ;
+
+        
+    
+    
+            var circle_marker_00500df73c434693bce181b65837c175 = L.circleMarker(
+                [43.6532, -79.3832],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_689c6b7303914ef98997cc031c44001f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94a0acac8d324866af0df6cbbaec293b = $(`<div id="html_94a0acac8d324866af0df6cbbaec293b" style="width: 100.0%; height: 100.0%;">2 have coronavirus</div>`)[0];
+            popup_689c6b7303914ef98997cc031c44001f.setContent(html_94a0acac8d324866af0df6cbbaec293b);
+        
+
+        circle_marker_00500df73c434693bce181b65837c175.bindPopup(popup_689c6b7303914ef98997cc031c44001f)
+        ;
+
+        
+    
+    
+            var circle_marker_b82bc029fb5741e88d8ccaa22271212a = L.circleMarker(
+                [49.2827, -123.1207],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_7215244747614d48a337871ff8f4a53e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7df017ea9eb840aab7ceaae49fb986cb = $(`<div id="html_7df017ea9eb840aab7ceaae49fb986cb" style="width: 100.0%; height: 100.0%;">3 have coronavirus</div>`)[0];
+            popup_7215244747614d48a337871ff8f4a53e.setContent(html_7df017ea9eb840aab7ceaae49fb986cb);
+        
+
+        circle_marker_b82bc029fb5741e88d8ccaa22271212a.bindPopup(popup_7215244747614d48a337871ff8f4a53e)
+        ;
+
+        
+    
+    
+            var circle_marker_b19ae17f8bc9487fa59dc0c6f489845a = L.circleMarker(
+                [33.7879, -117.8531],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_50d3dd64340b488593219eab8330cb35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f90f61362164ffc85bbf926bd7471fe = $(`<div id="html_9f90f61362164ffc85bbf926bd7471fe" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_50d3dd64340b488593219eab8330cb35.setContent(html_9f90f61362164ffc85bbf926bd7471fe);
+        
+
+        circle_marker_b19ae17f8bc9487fa59dc0c6f489845a.bindPopup(popup_50d3dd64340b488593219eab8330cb35)
+        ;
+
+        
+    
+    
+            var circle_marker_59b6463c94314affbe3d34087cec7b6b = L.circleMarker(
+                [34.0522, -118.2437],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_b56a07ca99ca433897e14029204e1472 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc147f00fe2e43b5a0b88a1ac7d8b024 = $(`<div id="html_fc147f00fe2e43b5a0b88a1ac7d8b024" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_b56a07ca99ca433897e14029204e1472.setContent(html_fc147f00fe2e43b5a0b88a1ac7d8b024);
+        
+
+        circle_marker_59b6463c94314affbe3d34087cec7b6b.bindPopup(popup_b56a07ca99ca433897e14029204e1472)
+        ;
+
+        
+    
+    
+            var circle_marker_b779fcbe5e0c4b6fa939ff47eef26879 = L.circleMarker(
+                [-33.8688, 151.2093],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_8064b50c3ac4430098ab913e5ffccf06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c44bdf2ea68437c988fb80297cab617 = $(`<div id="html_9c44bdf2ea68437c988fb80297cab617" style="width: 100.0%; height: 100.0%;">4 have coronavirus</div>`)[0];
+            popup_8064b50c3ac4430098ab913e5ffccf06.setContent(html_9c44bdf2ea68437c988fb80297cab617);
+        
+
+        circle_marker_b779fcbe5e0c4b6fa939ff47eef26879.bindPopup(popup_8064b50c3ac4430098ab913e5ffccf06)
+        ;
+
+        
+    
+    
+            var circle_marker_7db3cb79846c432c97b07efc2c0ec191 = L.circleMarker(
+                [-37.8136, 144.9631],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_889165de8d9a4769b10da56719de9061 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1e721a600ab4f4f9def171c8f1f995e = $(`<div id="html_f1e721a600ab4f4f9def171c8f1f995e" style="width: 100.0%; height: 100.0%;">4 have coronavirus</div>`)[0];
+            popup_889165de8d9a4769b10da56719de9061.setContent(html_f1e721a600ab4f4f9def171c8f1f995e);
+        
+
+        circle_marker_7db3cb79846c432c97b07efc2c0ec191.bindPopup(popup_889165de8d9a4769b10da56719de9061)
+        ;
+
+        
+    
+    
+            var circle_marker_a9deadf7f0c14a75bcb26a5edfaa1393 = L.circleMarker(
+                [-28.0167, 153.4],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_dc5ed8165dc44031be997c78c6a2b7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30084f6789e34b2a89ed672de9c7d995 = $(`<div id="html_30084f6789e34b2a89ed672de9c7d995" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_dc5ed8165dc44031be997c78c6a2b7c0.setContent(html_30084f6789e34b2a89ed672de9c7d995);
+        
+
+        circle_marker_a9deadf7f0c14a75bcb26a5edfaa1393.bindPopup(popup_dc5ed8165dc44031be997c78c6a2b7c0)
+        ;
+
+        
+    
+    
+            var circle_marker_e6ead9d73d60440fbf7f118f909145b0 = L.circleMarker(
+                [11.55, 104.9167],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_a3a1a6ac9f87488f822efa2ae811c496 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1be9310220841e19f88a62d7388e412 = $(`<div id="html_c1be9310220841e19f88a62d7388e412" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_a3a1a6ac9f87488f822efa2ae811c496.setContent(html_c1be9310220841e19f88a62d7388e412);
+        
+
+        circle_marker_e6ead9d73d60440fbf7f118f909145b0.bindPopup(popup_a3a1a6ac9f87488f822efa2ae811c496)
+        ;
+
+        
+    
+    
+            var circle_marker_01a2b21e10f34bddbba4f1aea584f8cc = L.circleMarker(
+                [7.0, 81.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_80b3d0538a134b58a3da6eb2b6ada61f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2e7cbc26a1745379bfdb845048507b3 = $(`<div id="html_e2e7cbc26a1745379bfdb845048507b3" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_80b3d0538a134b58a3da6eb2b6ada61f.setContent(html_e2e7cbc26a1745379bfdb845048507b3);
+        
+
+        circle_marker_01a2b21e10f34bddbba4f1aea584f8cc.bindPopup(popup_80b3d0538a134b58a3da6eb2b6ada61f)
+        ;
+
+        
+    
+    
+            var circle_marker_383216842d574ec0ac7059c3135bb7fa = L.circleMarker(
+                [51.0, 9.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_32c30bd2973f4068b6806570ddc112e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bf4dc5d682b4825946443cbb1aee507 = $(`<div id="html_0bf4dc5d682b4825946443cbb1aee507" style="width: 100.0%; height: 100.0%;">16 have coronavirus</div>`)[0];
+            popup_32c30bd2973f4068b6806570ddc112e2.setContent(html_0bf4dc5d682b4825946443cbb1aee507);
+        
+
+        circle_marker_383216842d574ec0ac7059c3135bb7fa.bindPopup(popup_32c30bd2973f4068b6806570ddc112e2)
+        ;
+
+        
+    
+    
+            var circle_marker_81846308d9a4418bb0778179f768b472 = L.circleMarker(
+                [64.0, 26.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_01b008a4b5974f8ead2a7b34980dead1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3468d9b65df4c179bdfbe137f4084c6 = $(`<div id="html_a3468d9b65df4c179bdfbe137f4084c6" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_01b008a4b5974f8ead2a7b34980dead1.setContent(html_a3468d9b65df4c179bdfbe137f4084c6);
+        
+
+        circle_marker_81846308d9a4418bb0778179f768b472.bindPopup(popup_01b008a4b5974f8ead2a7b34980dead1)
+        ;
+
+        
+    
+    
+            var circle_marker_27a3f3c56d8b4f5d857b1d9549ac0d81 = L.circleMarker(
+                [24.0, 54.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_e55cbd9bb7ef47b7b823636b3e367d82 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a95dc80245c4a65a7458d922484462e = $(`<div id="html_1a95dc80245c4a65a7458d922484462e" style="width: 100.0%; height: 100.0%;">4 have coronavirus</div>`)[0];
+            popup_e55cbd9bb7ef47b7b823636b3e367d82.setContent(html_1a95dc80245c4a65a7458d922484462e);
+        
+
+        circle_marker_27a3f3c56d8b4f5d857b1d9549ac0d81.bindPopup(popup_e55cbd9bb7ef47b7b823636b3e367d82)
+        ;
+
+        
+    
+    
+            var circle_marker_9f06c86562c44fd794f9e8f8582f7dc3 = L.circleMarker(
+                [13.0, 122.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_531cc4f709654a8ca7588c88ca9a0149 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6c43f37dd7a4b88bb291280271d1bca = $(`<div id="html_b6c43f37dd7a4b88bb291280271d1bca" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_531cc4f709654a8ca7588c88ca9a0149.setContent(html_b6c43f37dd7a4b88bb291280271d1bca);
+        
+
+        circle_marker_9f06c86562c44fd794f9e8f8582f7dc3.bindPopup(popup_531cc4f709654a8ca7588c88ca9a0149)
+        ;
+
+        
+    
+    
+            var circle_marker_7c2aaeed65824f19acf3b8a1f41bc09c = L.circleMarker(
+                [21.0, 78.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_c506f28c61074f83880c234bb17b938d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9b8372727d04bdfb75481348cbb8b58 = $(`<div id="html_d9b8372727d04bdfb75481348cbb8b58" style="width: 100.0%; height: 100.0%;">3 have coronavirus</div>`)[0];
+            popup_c506f28c61074f83880c234bb17b938d.setContent(html_d9b8372727d04bdfb75481348cbb8b58);
+        
+
+        circle_marker_7c2aaeed65824f19acf3b8a1f41bc09c.bindPopup(popup_c506f28c61074f83880c234bb17b938d)
+        ;
+
+        
+    
+    
+            var circle_marker_93f4e4a553fe4a52ae740a38b1f76e5c = L.circleMarker(
+                [42.9849, -81.2453],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_9c686d8d79064a35b3dc1360977ab709 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9e8bb5befb54e25860564a2a82f632f = $(`<div id="html_d9e8bb5befb54e25860564a2a82f632f" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_9c686d8d79064a35b3dc1360977ab709.setContent(html_d9e8bb5befb54e25860564a2a82f632f);
+        
+
+        circle_marker_93f4e4a553fe4a52ae740a38b1f76e5c.bindPopup(popup_9c686d8d79064a35b3dc1360977ab709)
+        ;
+
+        
+    
+    
+            var circle_marker_063500eac23749369a02b4f4fee624f1 = L.circleMarker(
+                [43.0, 12.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_ba142573ba4d48e4867681d0604a7929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_342d4ccda6cc4c41a3f55996b6f9596c = $(`<div id="html_342d4ccda6cc4c41a3f55996b6f9596c" style="width: 100.0%; height: 100.0%;">45 have coronavirus</div>`)[0];
+            popup_ba142573ba4d48e4867681d0604a7929.setContent(html_342d4ccda6cc4c41a3f55996b6f9596c);
+        
+
+        circle_marker_063500eac23749369a02b4f4fee624f1.bindPopup(popup_ba142573ba4d48e4867681d0604a7929)
+        ;
+
+        
+    
+    
+            var circle_marker_ad68aaabc76c4c6f8baff870aeeb4500 = L.circleMarker(
+                [55.0, -3.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_741c32899df24e129f30d9fcc592397c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f27d287754a147ef92dde0965864701f = $(`<div id="html_f27d287754a147ef92dde0965864701f" style="width: 100.0%; height: 100.0%;">8 have coronavirus</div>`)[0];
+            popup_741c32899df24e129f30d9fcc592397c.setContent(html_f27d287754a147ef92dde0965864701f);
+        
+
+        circle_marker_ad68aaabc76c4c6f8baff870aeeb4500.bindPopup(popup_741c32899df24e129f30d9fcc592397c)
+        ;
+
+        
+    
+    
+            var circle_marker_c8e25b9fb9334a7f86f21e7269fee2d0 = L.circleMarker(
+                [60.0, 90.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_4470e9d9ad8a4d289b1cae974dff501c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59af4b802f9c43509ff6caf5c43c8bc3 = $(`<div id="html_59af4b802f9c43509ff6caf5c43c8bc3" style="width: 100.0%; height: 100.0%;">2 have coronavirus</div>`)[0];
+            popup_4470e9d9ad8a4d289b1cae974dff501c.setContent(html_59af4b802f9c43509ff6caf5c43c8bc3);
+        
+
+        circle_marker_c8e25b9fb9334a7f86f21e7269fee2d0.bindPopup(popup_4470e9d9ad8a4d289b1cae974dff501c)
+        ;
+
+        
+    
+    
+            var circle_marker_cd912347f1fd4d36a33628206acad7ee = L.circleMarker(
+                [63.0, 16.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_24d801d6d2594019bfd9daf6774b6a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13091bf3730447294ddd1e09036056a = $(`<div id="html_a13091bf3730447294ddd1e09036056a" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_24d801d6d2594019bfd9daf6774b6a86.setContent(html_a13091bf3730447294ddd1e09036056a);
+        
+
+        circle_marker_cd912347f1fd4d36a33628206acad7ee.bindPopup(popup_24d801d6d2594019bfd9daf6774b6a86)
+        ;
+
+        
+    
+    
+            var circle_marker_7daffd9d21884cd3b9bc9addba7ef02f = L.circleMarker(
+                [37.3541, -121.9552],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_6b787b02443949c18fb26ed4e6553888 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_878befd166b14a018c09e9d05d155653 = $(`<div id="html_878befd166b14a018c09e9d05d155653" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_6b787b02443949c18fb26ed4e6553888.setContent(html_878befd166b14a018c09e9d05d155653);
+        
+
+        circle_marker_7daffd9d21884cd3b9bc9addba7ef02f.bindPopup(popup_6b787b02443949c18fb26ed4e6553888)
+        ;
+
+        
+    
+    
+            var circle_marker_e10863bf0a4a4109ab0c50a314d22071 = L.circleMarker(
+                [40.0, -4.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_ac4b8f69daa8419988d4f3aafe50fe3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6173af73abc44c228665bf0b67885d58 = $(`<div id="html_6173af73abc44c228665bf0b67885d58" style="width: 100.0%; height: 100.0%;">2 have coronavirus</div>`)[0];
+            popup_ac4b8f69daa8419988d4f3aafe50fe3d.setContent(html_6173af73abc44c228665bf0b67885d58);
+        
+
+        circle_marker_e10863bf0a4a4109ab0c50a314d22071.bindPopup(popup_ac4b8f69daa8419988d4f3aafe50fe3d)
+        ;
+
+        
+    
+    
+            var circle_marker_2fc59cc05fad4af8a632cdfeff3a51e1 = L.circleMarker(
+                [-34.9285, 138.6007],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_d89f42195ec142459c652642c4ef9c61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d150660f498a4d7ebf6efd913f87c86f = $(`<div id="html_d150660f498a4d7ebf6efd913f87c86f" style="width: 100.0%; height: 100.0%;">2 have coronavirus</div>`)[0];
+            popup_d89f42195ec142459c652642c4ef9c61.setContent(html_d150660f498a4d7ebf6efd913f87c86f);
+        
+
+        circle_marker_2fc59cc05fad4af8a632cdfeff3a51e1.bindPopup(popup_d89f42195ec142459c652642c4ef9c61)
+        ;
+
+        
+    
+    
+            var circle_marker_d81c3d6bfe214c239084d21dce544f2c = L.circleMarker(
+                [42.3601, -71.0589],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_89a5840610cb496c889297398919b774 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88eab853ee0b4ee7bd739535dc4c8200 = $(`<div id="html_88eab853ee0b4ee7bd739535dc4c8200" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_89a5840610cb496c889297398919b774.setContent(html_88eab853ee0b4ee7bd739535dc4c8200);
+        
+
+        circle_marker_d81c3d6bfe214c239084d21dce544f2c.bindPopup(popup_89a5840610cb496c889297398919b774)
+        ;
+
+        
+    
+    
+            var circle_marker_aefc1cc2daf341408cab3d7a0f5ba77f = L.circleMarker(
+                [36.5761, -120.9876],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_6fc3c20fbad54d89b7471bd031e839c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04896214cc304d748bddc47030ea7292 = $(`<div id="html_04896214cc304d748bddc47030ea7292" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_6fc3c20fbad54d89b7471bd031e839c0.setContent(html_04896214cc304d748bddc47030ea7292);
+        
+
+        circle_marker_aefc1cc2daf341408cab3d7a0f5ba77f.bindPopup(popup_6fc3c20fbad54d89b7471bd031e839c0)
+        ;
+
+        
+    
+    
+            var circle_marker_9a9b5ac48e3547619fa96fa91f273e72 = L.circleMarker(
+                [50.8333, 4.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_7f8c8ddcbb254db9bbc554e829decf37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73cd3bf5191449e5baf1a100281ced8d = $(`<div id="html_73cd3bf5191449e5baf1a100281ced8d" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_7f8c8ddcbb254db9bbc554e829decf37.setContent(html_73cd3bf5191449e5baf1a100281ced8d);
+        
+
+        circle_marker_9a9b5ac48e3547619fa96fa91f273e72.bindPopup(popup_7f8c8ddcbb254db9bbc554e829decf37)
+        ;
+
+        
+    
+    
+            var circle_marker_9e7804b3104a4cd6aea89285d270147a = L.circleMarker(
+                [43.0731, -89.4012],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_0d17b040a6504754bfb91da042308f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d0e0be6138401596319554c6d1dd5c = $(`<div id="html_20d0e0be6138401596319554c6d1dd5c" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_0d17b040a6504754bfb91da042308f87.setContent(html_20d0e0be6138401596319554c6d1dd5c);
+        
+
+        circle_marker_9e7804b3104a4cd6aea89285d270147a.bindPopup(popup_0d17b040a6504754bfb91da042308f87)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe0196e648f4b2a90f515a2cf1e037c = L.circleMarker(
+                [35.4437, 139.638],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_4a0f70c2bbe04cae9491b42240a19a7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e36a3bcb97d4065a76f10a2cdc0fd3c = $(`<div id="html_8e36a3bcb97d4065a76f10a2cdc0fd3c" style="width: 100.0%; height: 100.0%;">10 have coronavirus</div>`)[0];
+            popup_4a0f70c2bbe04cae9491b42240a19a7f.setContent(html_8e36a3bcb97d4065a76f10a2cdc0fd3c);
+        
+
+        circle_marker_9fe0196e648f4b2a90f515a2cf1e037c.bindPopup(popup_4a0f70c2bbe04cae9491b42240a19a7f)
+        ;
+
+        
+    
+    
+            var circle_marker_e96a5bb231ad4f588d9508860816fee8 = L.circleMarker(
+                [32.7157, -117.1611],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_825eb26fe05d40b48e55f761729f0c48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6cc3264b81c4a72a16e892b42b83f61 = $(`<div id="html_b6cc3264b81c4a72a16e892b42b83f61" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_825eb26fe05d40b48e55f761729f0c48.setContent(html_b6cc3264b81c4a72a16e892b42b83f61);
+        
+
+        circle_marker_e96a5bb231ad4f588d9508860816fee8.bindPopup(popup_825eb26fe05d40b48e55f761729f0c48)
+        ;
+
+        
+    
+    
+            var circle_marker_a4808faab96747ed9dc34f40872afe3b = L.circleMarker(
+                [29.4241, -98.4936],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_6923ebd8e47c43c795379c43d7635f5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ea40ee5a45948c2a6f4d32034be1f3c = $(`<div id="html_0ea40ee5a45948c2a6f4d32034be1f3c" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_6923ebd8e47c43c795379c43d7635f5d.setContent(html_0ea40ee5a45948c2a6f4d32034be1f3c);
+        
+
+        circle_marker_a4808faab96747ed9dc34f40872afe3b.bindPopup(popup_6923ebd8e47c43c795379c43d7635f5d)
+        ;
+
+        
+    
+    
+            var circle_marker_3a6b30de7dbf45e5900f1a607e68eb26 = L.circleMarker(
+                [26.0, 30.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_85522034cee94d9e8d3f348b5408c38d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c06dacbd9e444675b2c330103c0b7d0e = $(`<div id="html_c06dacbd9e444675b2c330103c0b7d0e" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_85522034cee94d9e8d3f348b5408c38d.setContent(html_c06dacbd9e444675b2c330103c0b7d0e);
+        
+
+        circle_marker_3a6b30de7dbf45e5900f1a607e68eb26.bindPopup(popup_85522034cee94d9e8d3f348b5408c38d)
+        ;
+
+        
+    
+    
+            var circle_marker_2618db25736641378a8443ed541d947b = L.circleMarker(
+                [32.0, 53.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_ccf3b95ac5204a31bba5d0b7e9996d71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1bc2bc53c7f43c0b0a4557232eb25ba = $(`<div id="html_d1bc2bc53c7f43c0b0a4557232eb25ba" style="width: 100.0%; height: 100.0%;">49 have coronavirus</div>`)[0];
+            popup_ccf3b95ac5204a31bba5d0b7e9996d71.setContent(html_d1bc2bc53c7f43c0b0a4557232eb25ba);
+        
+
+        circle_marker_2618db25736641378a8443ed541d947b.bindPopup(popup_ccf3b95ac5204a31bba5d0b7e9996d71)
+        ;
+
+        
+    
+    
+            var circle_marker_fbc921ec703e4735a4b0262197607070 = L.circleMarker(
+                [41.2545, -95.9758],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_fd5d2db84c7142d8b2d4b8e14eba3a7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba42b01840984fcf8734d3e93c41744c = $(`<div id="html_ba42b01840984fcf8734d3e93c41744c" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_fd5d2db84c7142d8b2d4b8e14eba3a7c.setContent(html_ba42b01840984fcf8734d3e93c41744c);
+        
+
+        circle_marker_fbc921ec703e4735a4b0262197607070.bindPopup(popup_fd5d2db84c7142d8b2d4b8e14eba3a7c)
+        ;
+
+        
+    
+    
+            var circle_marker_38fdf689e71a4da8918573ed3b1820d1 = L.circleMarker(
+                [38.2721, -121.9399],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_98ea2c4828c8422e88264212aceb1675 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fa06ddcff12438e858976b77901f5f2 = $(`<div id="html_1fa06ddcff12438e858976b77901f5f2" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_98ea2c4828c8422e88264212aceb1675.setContent(html_1fa06ddcff12438e858976b77901f5f2);
+        
+
+        circle_marker_38fdf689e71a4da8918573ed3b1820d1.bindPopup(popup_98ea2c4828c8422e88264212aceb1675)
+        ;
+
+        
+    
+    
+            var circle_marker_f033440e3cd5429d8f98b133f0a8078e = L.circleMarker(
+                [35.4437, 139.638],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_a3faa644c0c849d88f37eb168860307a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e1d4cca58f041bdadf37edef46041dc = $(`<div id="html_4e1d4cca58f041bdadf37edef46041dc" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_a3faa644c0c849d88f37eb168860307a.setContent(html_4e1d4cca58f041bdadf37edef46041dc);
+        
+
+        circle_marker_f033440e3cd5429d8f98b133f0a8078e.bindPopup(popup_a3faa644c0c849d88f37eb168860307a)
+        ;
+
+        
+    
+    
+            var circle_marker_ad336cb4c4b9457db9769a24dfbf48b7 = L.circleMarker(
+                [29.3829, -98.6134],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_92aad1b435174a70bdcaff86b95d0383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e57ac6d98043578b9e57de77476635 = $(`<div id="html_74e57ac6d98043578b9e57de77476635" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_92aad1b435174a70bdcaff86b95d0383.setContent(html_74e57ac6d98043578b9e57de77476635);
+        
+
+        circle_marker_ad336cb4c4b9457db9769a24dfbf48b7.bindPopup(popup_92aad1b435174a70bdcaff86b95d0383)
+        ;
+
+        
+    
+    
+            var circle_marker_b9ccd02e655341c8adcffd3d467471e2 = L.circleMarker(
+                [33.8547, 35.8623],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_e7d49fa460384cf4b1812f2aa6cc30ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_215956fa44c74f4198d05e1fcb468807 = $(`<div id="html_215956fa44c74f4198d05e1fcb468807" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_e7d49fa460384cf4b1812f2aa6cc30ac.setContent(html_215956fa44c74f4198d05e1fcb468807);
+        
+
+        circle_marker_b9ccd02e655341c8adcffd3d467471e2.bindPopup(popup_e7d49fa460384cf4b1812f2aa6cc30ac)
+        ;
+
+        
+    
+    
+            var circle_marker_54e6deaf27cb4755b8ba3506e2caac15 = L.circleMarker(
+                [40.745, -123.8695],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_734802488fc24e43954fc7607461ae78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d7a70bdb38246e7968984cad5de00fe = $(`<div id="html_6d7a70bdb38246e7968984cad5de00fe" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_734802488fc24e43954fc7607461ae78.setContent(html_6d7a70bdb38246e7968984cad5de00fe);
+        
+
+        circle_marker_54e6deaf27cb4755b8ba3506e2caac15.bindPopup(popup_734802488fc24e43954fc7607461ae78)
+        ;
+
+        
+    
+    
+            var circle_marker_53d2d6b358e0426e90e854e362703fa1 = L.circleMarker(
+                [38.4747, -121.3542],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_f2d2e5c84ef5426780990562c9ab25e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53763cb63dc3481991c83112255ad47c = $(`<div id="html_53763cb63dc3481991c83112255ad47c" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_f2d2e5c84ef5426780990562c9ab25e3.setContent(html_53763cb63dc3481991c83112255ad47c);
+        
+
+        circle_marker_53d2d6b358e0426e90e854e362703fa1.bindPopup(popup_f2d2e5c84ef5426780990562c9ab25e3)
+        ;
+
+        
+    
+    
+            var circle_marker_fbcbcb2edf5447a7b93b4e93634cdd8e = L.circleMarker(
+                [33.0, 44.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_d537775bed9746878df7bf0dfff5747a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11e31a374e47465aaba2bf88bebdf411 = $(`<div id="html_11e31a374e47465aaba2bf88bebdf411" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_d537775bed9746878df7bf0dfff5747a.setContent(html_11e31a374e47465aaba2bf88bebdf411);
+        
+
+        circle_marker_fbcbcb2edf5447a7b93b4e93634cdd8e.bindPopup(popup_d537775bed9746878df7bf0dfff5747a)
+        ;
+
+        
+    
+    
+            var circle_marker_4d83017574a844048b3ed74bac7f43c4 = L.circleMarker(
+                [35.4437, 139.638],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_9f32567052ec4fc494689994ab118ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb0007e5571449878d02799e6bfaccae = $(`<div id="html_fb0007e5571449878d02799e6bfaccae" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_9f32567052ec4fc494689994ab118ac7.setContent(html_fb0007e5571449878d02799e6bfaccae);
+        
+
+        circle_marker_4d83017574a844048b3ed74bac7f43c4.bindPopup(popup_9f32567052ec4fc494689994ab118ac7)
+        ;
+
+        
+    
+    
+            var circle_marker_fbedc0b247704fd893cad8ba4acfa093 = L.circleMarker(
+                [21.0, 57.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_c9dafbe0d3aa485da194449ab9e9196f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e3309b54f1f4b3db42bd3e51613c68f = $(`<div id="html_7e3309b54f1f4b3db42bd3e51613c68f" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_c9dafbe0d3aa485da194449ab9e9196f.setContent(html_7e3309b54f1f4b3db42bd3e51613c68f);
+        
+
+        circle_marker_fbedc0b247704fd893cad8ba4acfa093.bindPopup(popup_c9dafbe0d3aa485da194449ab9e9196f)
+        ;
+
+        
+    
+    
+            var circle_marker_2ec9139fb55c40a5a853aac8501b0ae1 = L.circleMarker(
+                [33.0, 65.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_cebb7bc671db48e482dc0990debc5499 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e68d9f95a28b41a8b2c6f344d2fa6183 = $(`<div id="html_e68d9f95a28b41a8b2c6f344d2fa6183" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_cebb7bc671db48e482dc0990debc5499.setContent(html_e68d9f95a28b41a8b2c6f344d2fa6183);
+        
+
+        circle_marker_2ec9139fb55c40a5a853aac8501b0ae1.bindPopup(popup_cebb7bc671db48e482dc0990debc5499)
+        ;
+
+        
+    
+    
+            var circle_marker_79ebb1635cc640358026483e78a5fba6 = L.circleMarker(
+                [26.0275, 50.55],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_af5041b72dc247fc8565e5b1bdc19bfc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df595e069a54415a942f49b6732244e5 = $(`<div id="html_df595e069a54415a942f49b6732244e5" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_af5041b72dc247fc8565e5b1bdc19bfc.setContent(html_df595e069a54415a942f49b6732244e5);
+        
+
+        circle_marker_79ebb1635cc640358026483e78a5fba6.bindPopup(popup_af5041b72dc247fc8565e5b1bdc19bfc)
+        ;
+
+        
+    
+    
+            var circle_marker_d2bc67d427454dd9b60752ba7a36567f = L.circleMarker(
+                [29.5, 47.75],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_eacfadd911d645b6b2232038cb0e65f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22a4bb02e25d49ccbc4c64d08132811a = $(`<div id="html_22a4bb02e25d49ccbc4c64d08132811a" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_eacfadd911d645b6b2232038cb0e65f6.setContent(html_22a4bb02e25d49ccbc4c64d08132811a);
+        
+
+        circle_marker_d2bc67d427454dd9b60752ba7a36567f.bindPopup(popup_eacfadd911d645b6b2232038cb0e65f6)
+        ;
+
+        
+    
+    
+            var circle_marker_8308520270dc44cbb5f8f04d0042eb17 = L.circleMarker(
+                [28.0339, 1.6596],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_77246195483947669c3d12878e5da955 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1b64e1883e1446cab8d27916471623f = $(`<div id="html_a1b64e1883e1446cab8d27916471623f" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_77246195483947669c3d12878e5da955.setContent(html_a1b64e1883e1446cab8d27916471623f);
+        
+
+        circle_marker_8308520270dc44cbb5f8f04d0042eb17.bindPopup(popup_77246195483947669c3d12878e5da955)
+        ;
+
+        
+    
+    
+            var circle_marker_5d9f5069a2194d71a589033893704354 = L.circleMarker(
+                [45.1, 15.2],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_8b16c82e028047328b79b2b5c9f71ab7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28a66b0983924b8ebfcfb39d8a2eaca5 = $(`<div id="html_28a66b0983924b8ebfcfb39d8a2eaca5" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_8b16c82e028047328b79b2b5c9f71ab7.setContent(html_28a66b0983924b8ebfcfb39d8a2eaca5);
+        
+
+        circle_marker_5d9f5069a2194d71a589033893704354.bindPopup(popup_8b16c82e028047328b79b2b5c9f71ab7)
+        ;
+
+        
+    
+    
+            var circle_marker_e9cddf6de8b44f2cb9085296bbef469d = L.circleMarker(
+                [46.8182, 8.2275],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_3a654e9458ee4ec1b061f11ac120f478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ea9486fd7a144c38f21926af8f09d72 = $(`<div id="html_6ea9486fd7a144c38f21926af8f09d72" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_3a654e9458ee4ec1b061f11ac120f478.setContent(html_6ea9486fd7a144c38f21926af8f09d72);
+        
+
+        circle_marker_e9cddf6de8b44f2cb9085296bbef469d.bindPopup(popup_3a654e9458ee4ec1b061f11ac120f478)
+        ;
+
+        
+    
+    
+            var circle_marker_1a6c9e958d324f1083d32dcd4fcc3b0d = L.circleMarker(
+                [47.5162, 14.5501],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_29b9de5995d04a7f8a624a63604c75d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec33c48860b4493ba82c5166e78048b1 = $(`<div id="html_ec33c48860b4493ba82c5166e78048b1" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_29b9de5995d04a7f8a624a63604c75d6.setContent(html_ec33c48860b4493ba82c5166e78048b1);
+        
+
+        circle_marker_1a6c9e958d324f1083d32dcd4fcc3b0d.bindPopup(popup_29b9de5995d04a7f8a624a63604c75d6)
+        ;
+
+        
+    
+    
+            var circle_marker_1621144c0db24286832f5a87f1d0aa21 = L.circleMarker(
+                [31.0, 35.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_a229945dd7e143f981721b92ac1e0f14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b5c4089b7cb4b628f10da86fd5c3974 = $(`<div id="html_1b5c4089b7cb4b628f10da86fd5c3974" style="width: 100.0%; height: 100.0%;">1 have coronavirus</div>`)[0];
+            popup_a229945dd7e143f981721b92ac1e0f14.setContent(html_1b5c4089b7cb4b628f10da86fd5c3974);
+        
+
+        circle_marker_1621144c0db24286832f5a87f1d0aa21.bindPopup(popup_a229945dd7e143f981721b92ac1e0f14)
+        ;
+
+        
+    
+    
+            var circle_marker_e5160d9cf704404285a4755aa7f725a2 = L.circleMarker(
+                [30.3753, 69.3451],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_a78a3bf11de8403c97f7ec8b63fef6b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e594a2db5f2d4d1997aeacd635487f78 = $(`<div id="html_e594a2db5f2d4d1997aeacd635487f78" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_a78a3bf11de8403c97f7ec8b63fef6b6.setContent(html_e594a2db5f2d4d1997aeacd635487f78);
+        
+
+        circle_marker_e5160d9cf704404285a4755aa7f725a2.bindPopup(popup_a78a3bf11de8403c97f7ec8b63fef6b6)
+        ;
+
+        
+    
+    
+            var circle_marker_d0a70b03ca22490d8bfa1f259376011b = L.circleMarker(
+                [-14.235, -51.9253],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_ffd75bde00914be5ae02ac3d4f995941 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_557b249ab39f4772847e57e60345cf90 = $(`<div id="html_557b249ab39f4772847e57e60345cf90" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_ffd75bde00914be5ae02ac3d4f995941.setContent(html_557b249ab39f4772847e57e60345cf90);
+        
+
+        circle_marker_d0a70b03ca22490d8bfa1f259376011b.bindPopup(popup_ffd75bde00914be5ae02ac3d4f995941)
+        ;
+
+        
+    
+    
+            var circle_marker_123ca74e1c1246aa930f6963a88986ee = L.circleMarker(
+                [42.3154, 43.3569],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_14746e2864d34cad8164e461608befbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dc6fc3e079640ec818312dae4621097 = $(`<div id="html_5dc6fc3e079640ec818312dae4621097" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_14746e2864d34cad8164e461608befbe.setContent(html_5dc6fc3e079640ec818312dae4621097);
+        
+
+        circle_marker_123ca74e1c1246aa930f6963a88986ee.bindPopup(popup_14746e2864d34cad8164e461608befbe)
+        ;
+
+        
+    
+    
+            var circle_marker_b574378816d1469da1f1c2655046dfc5 = L.circleMarker(
+                [39.0742, 21.8243],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_6ace3ffa28634ca08dd745395e01a89b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9abd8f71f18b4bd780c9e10e99bbe848 = $(`<div id="html_9abd8f71f18b4bd780c9e10e99bbe848" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_6ace3ffa28634ca08dd745395e01a89b.setContent(html_9abd8f71f18b4bd780c9e10e99bbe848);
+        
+
+        circle_marker_b574378816d1469da1f1c2655046dfc5.bindPopup(popup_6ace3ffa28634ca08dd745395e01a89b)
+        ;
+
+        
+    
+    
+            var circle_marker_7edc895d459146fd85a76f2c7f1783d2 = L.circleMarker(
+                [41.6086, 21.7453],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_8c76502e96f543b9af6e695b8b7ec97b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e48839297204444a88b4812e3b67627 = $(`<div id="html_6e48839297204444a88b4812e3b67627" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_8c76502e96f543b9af6e695b8b7ec97b.setContent(html_6e48839297204444a88b4812e3b67627);
+        
+
+        circle_marker_7edc895d459146fd85a76f2c7f1783d2.bindPopup(popup_8c76502e96f543b9af6e695b8b7ec97b)
+        ;
+
+        
+    
+    
+            var circle_marker_cd535fd68e794fef9fb97bfae61e9929 = L.circleMarker(
+                [60.472, 8.4689],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_7e7514e905454f23ae71b315bfe4f9f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f46382fb1f7c4ffb910146e6c3ae65e2 = $(`<div id="html_f46382fb1f7c4ffb910146e6c3ae65e2" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_7e7514e905454f23ae71b315bfe4f9f5.setContent(html_f46382fb1f7c4ffb910146e6c3ae65e2);
+        
+
+        circle_marker_cd535fd68e794fef9fb97bfae61e9929.bindPopup(popup_7e7514e905454f23ae71b315bfe4f9f5)
+        ;
+
+        
+    
+    
+            var circle_marker_08c4528dbfe844dc9a723dd920fa1df6 = L.circleMarker(
+                [45.9432, 24.9668],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_e789e97238a048bda960034172750dcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c62a1165b3f24a2b94a62eab941f277e = $(`<div id="html_c62a1165b3f24a2b94a62eab941f277e" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_e789e97238a048bda960034172750dcc.setContent(html_c62a1165b3f24a2b94a62eab941f277e);
+        
+
+        circle_marker_08c4528dbfe844dc9a723dd920fa1df6.bindPopup(popup_e789e97238a048bda960034172750dcc)
+        ;
+
+        
+    
+    
+            var circle_marker_bbf52560b7b74208921b8cc93445e3ea = L.circleMarker(
+                [56.2639, 9.5018],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_5699c6da4af74759a45a86993e63053b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ba88f7719a444298402091d100d0958 = $(`<div id="html_0ba88f7719a444298402091d100d0958" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_5699c6da4af74759a45a86993e63053b.setContent(html_0ba88f7719a444298402091d100d0958);
+        
+
+        circle_marker_bbf52560b7b74208921b8cc93445e3ea.bindPopup(popup_5699c6da4af74759a45a86993e63053b)
+        ;
+
+        
+    
+    
+            var circle_marker_f5ff9a02b39b433585c0fb76f732abfe = L.circleMarker(
+                [58.5953, 25.0136],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_25242af34c894f2dbfb0be3666b17bd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ea7a13fb05494aaa6e97a831299680 = $(`<div id="html_96ea7a13fb05494aaa6e97a831299680" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_25242af34c894f2dbfb0be3666b17bd2.setContent(html_96ea7a13fb05494aaa6e97a831299680);
+        
+
+        circle_marker_f5ff9a02b39b433585c0fb76f732abfe.bindPopup(popup_25242af34c894f2dbfb0be3666b17bd2)
+        ;
+
+        
+    
+    
+            var circle_marker_4ae42379a3e54cdbb87243f3890fb854 = L.circleMarker(
+                [52.1326, 5.2913],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_250f5105afe441af80d42b38f3c73d76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21408823efe84da186a625b24a9cd464 = $(`<div id="html_21408823efe84da186a625b24a9cd464" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_250f5105afe441af80d42b38f3c73d76.setContent(html_21408823efe84da186a625b24a9cd464);
+        
+
+        circle_marker_4ae42379a3e54cdbb87243f3890fb854.bindPopup(popup_250f5105afe441af80d42b38f3c73d76)
+        ;
+
+        
+    
+    
+            var circle_marker_b8e9d9a402ec4803b6598dec6bc3eac1 = L.circleMarker(
+                [43.9424, 12.4578],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(feature_group_dffa4431b9c2450883e977b1cf83f756);
+        
+    
+        var popup_609f034cb0944d32871e3c4932b828e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bd85a18e1b0246bbba5d6ea4819edcd0 = $(`<div id="html_bd85a18e1b0246bbba5d6ea4819edcd0" style="width: 100.0%; height: 100.0%;">0 have coronavirus</div>`)[0];
+            popup_609f034cb0944d32871e3c4932b828e2.setContent(html_bd85a18e1b0246bbba5d6ea4819edcd0);
+        
+
+        circle_marker_b8e9d9a402ec4803b6598dec6bc3eac1.bindPopup(popup_609f034cb0944d32871e3c4932b828e2)
+        ;
+
+        
+    
+</script>
